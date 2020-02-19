@@ -848,7 +848,6 @@ var practices = [{
 //Show map
 
 function initialize() {
-    'use strict';
     var options = {
         center: {
             lat: 53.2734,
@@ -865,7 +864,7 @@ function initialize() {
 
 }
 
-//Create markers
+//Create markers & infowindows
 let markers = [];
 
 function renderMarkers(showInfoWindow) {
@@ -876,8 +875,6 @@ function renderMarkers(showInfoWindow) {
             map: map,
             animation: google.maps.Animation.DROP,
         });
-
-        //Show inforwindow
 
         google.maps.event.addListener(markers[i], 'click', function() {
             console.log(this)
