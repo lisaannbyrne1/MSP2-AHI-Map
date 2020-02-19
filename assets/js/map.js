@@ -61,7 +61,7 @@ var counties = [{
     zoom: 10,
     center: {
         lat: 54.65449,
-        lng: -8.11071,
+        lng: -8.11071
     }
 }, {
     name: "Down",
@@ -94,7 +94,7 @@ var counties = [{
     center: {
         lat: 53.2738,
         lng: -9.05178
-    },
+    }
 }, {
     name: "Kerry",
     code: "ky",
@@ -261,8 +261,8 @@ var counties = [{
 var practices = [{
     name: "Currently none available in this area",
     code: "am",
-    address: "",
-    vet: "",
+    address: " ",
+    vet: " "
 }, {
     name: "Cross Veterinary Clinic",
     position: {
@@ -271,7 +271,7 @@ var practices = [{
     },
     code: "ah",
     address: "Dundalk Road, Crossmaglen, Co. Armagh",
-    vet: "Valerie Desai",
+    vet: "Valerie Desai"
 
 }, {
     name: "Oaklawns Veterinary Surgery",
@@ -281,7 +281,7 @@ var practices = [{
     },
     code: "cw",
     address: "Old Dublin Road, Carlow, Co. Carlow",
-    vet: "Valerie Desai",
+    vet: "Marilu Halderman"
 
 }, {
     name: "Vet & Pet",
@@ -291,7 +291,7 @@ var practices = [{
     },
     code: "cw",
     address: "Royal Oak, Bagenalstown, Co. Carlow",
-    vet: "Marilu Halderman",
+    vet: "Marilu Halderman"
 
 }, {
     name: "Breifne Animal Care",
@@ -301,7 +301,7 @@ var practices = [{
     },
     code: "cn",
     address: "Ballinagh Road, Cavan, Co. Cavan",
-    vet: "Carroll Sowards",
+    vet: "Carroll Sowards"
 
 }, {
     name: "Tycusker Veterinary Clinic",
@@ -311,7 +311,7 @@ var practices = [{
     },
     code: "cn",
     address: "Tycusker, Arva, Co. Cavan",
-    vet: "Pei Arebalo",
+    vet: "Pei Arebalo"
 
 }, {
     name: "Harveys Veterinary",
@@ -321,7 +321,7 @@ var practices = [{
     },
     code: "ce",
     address: "Kilkee Road, Kilrush, Co. Clare",
-    vet: "Merry Ewart",
+    vet: "Merry Ewart"
 
 }, {
     name: "Kilkee Veterinary Clinic",
@@ -331,7 +331,7 @@ var practices = [{
     },
     code: "ce",
     address: "No 1, Circular Road, Kilkee, Co. Clare",
-    vet: "Noah Mattern",
+    vet: "Noah Mattern"
 
 }, {
     name: "Keltic Veterinary",
@@ -341,7 +341,7 @@ var practices = [{
     },
     code: "c",
     address: "Charleville Town Center, Bakers Road, Charleville, Co. Cork",
-    vet: "Catheryn Broxton",
+    vet: "Catheryn Broxton"
 
 }, {
     name: "MacKessys Veterinary Hospital",
@@ -351,7 +351,7 @@ var practices = [{
     },
     code: "c",
     address: "Demesne, Newmarket, Co. Cork",
-    vet: "Demetria Keever",
+    vet: "Demetria Keever"
 
 }, {
     name: "Whitehouse Veterinary Clinic",
@@ -361,7 +361,7 @@ var practices = [{
     },
     code: "dy",
     address: "14 Whitehouse Road, Londonderry, Co. Derry",
-    vet: "Isis Loveall",
+    vet: "Isis Loveall"
 
 }, {
     name: "Mill Ford Veterinary Group",
@@ -371,7 +371,7 @@ var practices = [{
     },
     code: "dl",
     address: "Forquar, Letterkenny, Co. Donegal",
-    vet: "Cara Rosengarten",
+    vet: "Cara Rosengarten"
 
 }, {
     name: "Old Church Veterinary Hospital",
@@ -381,7 +381,7 @@ var practices = [{
     },
     code: "dl",
     address: "The Mall, Ballyshannon, Co. Donegal",
-    vet: "Reginia Alcock",
+    vet: "Reginia Alcock"
 
 }, {
     name: "Iveagh Veterinary Surgery",
@@ -391,7 +391,7 @@ var practices = [{
     },
     code: "dn",
     address: "30 Arderys Lane, Newry Road, Banbridge, Co. Down",
-    vet: "Hannelore Shen",
+    vet: "Hannelore Shen"
 
 }, {
     name: "Metrovets",
@@ -401,7 +401,7 @@ var practices = [{
     },
     code: "d",
     address: "72 Meath Street, Merchants Quay, Dublin",
-    vet: "Stefany Holdman",
+    vet: "Stefany Holdman"
 
 }, {
     name: "Noah Veterinary Hospital",
@@ -411,7 +411,7 @@ var practices = [{
     },
     code: "d",
     address: "38 Warren Louise Road, Co. Dublin",
-    vet: "Adaline Bove",
+    vet: "Adaline Bove"
 
 }, {
     name: "Three Valleys Veterinary Ltd",
@@ -421,7 +421,7 @@ var practices = [{
     },
     code: "fh",
     address: "107 Kesh Road, Irvinestown, Enniskillen, Co. Fermanagh",
-    vet: "Audie Glasper",
+    vet: "Audie Glasper"
 
 }, {
     name: "Veterinary Surgery",
@@ -431,7 +431,7 @@ var practices = [{
     },
     code: "gw",
     address: "Crowe Street, Gort, Co. Galway",
-    vet: "Percy Croslin",
+    vet: "Percy Croslin"
 
 }, {
     name: "Ward Veterinary Clinic",
@@ -441,7 +441,7 @@ var practices = [{
     },
     code: "gw",
     address: "Gurteen Acre, Athenry, Co. Galway",
-    vet: "Rubie Arciniega",
+    vet: "Rubie Arciniega"
 
 }, {
     name: "Hurleys Veterinary Hospital",
@@ -451,7 +451,7 @@ var practices = [{
     },
     code: "ky",
     address: "Brewery Road, Tralee, Co. Kerry",
-    vet: "Cristie Pang",
+    vet: "Cristie Pang"
 
 }, {
     name: "Island Veterinary Clinic",
@@ -461,7 +461,7 @@ var practices = [{
     },
     code: "ky",
     address: "St. Brendans Terrace, Listowel, Co. Kerry",
-    vet: "Hershel Voyles",
+    vet: "Hershel Voyles"
 
 }, {
     name: "Lalor Veterinary",
@@ -471,7 +471,7 @@ var practices = [{
     },
     code: "ke",
     address: "The Mill, Johnstown, Naas, Co. Kildare",
-    vet: "Shenna Geraghty",
+    vet: "Shenna Geraghty"
 
 }, {
     name: "Kenny and Cullen Veterinary Practice",
@@ -481,7 +481,7 @@ var practices = [{
     },
     code: "ke",
     address: "Mylerstown, Carbury, Co. Kildare",
-    vet: "Bethann Coomer",
+    vet: "Bethann Coomer"
 
 }, {
     name: "Thomastown Veterinary Clinic",
@@ -491,7 +491,7 @@ var practices = [{
     },
     code: "kk",
     address: "Dublin Road, Thomastown, Co. Kilkenny",
-    vet: "Karla Hamada",
+    vet: "Karla Hamada"
 
 }, {
     name: "Village Veterinary Hospital",
@@ -501,7 +501,7 @@ var practices = [{
     },
     code: "kk",
     address: "Cashel Villa, Kells Road, Co. Kilkenny",
-    vet: "Bambi Maio",
+    vet: "Bambi Maio"
 
 }, {
     name: "Kyle Veterinary Clinic",
@@ -511,7 +511,7 @@ var practices = [{
     },
     code: "ls",
     address: "Kyle, Durrow, Co. Laois",
-    vet: "Ligia Bettinger",
+    vet: "Ligia Bettinger"
 
 }, {
     name: "Mountrath Veterinary Centre",
@@ -521,7 +521,7 @@ var practices = [{
     },
     code: "ls",
     address: "Rushin Road, Mountrath, Co. Laois",
-    vet: "Forest Spurrier",
+    vet: "Forest Spurrier"
 
 }, {
     name: "Ashwood Veterinary Centre",
@@ -531,7 +531,7 @@ var practices = [{
     },
     code: "lm",
     address: "Gortfadda, Mohill, Co. Leitrim",
-    vet: "Marcene Stavros",
+    vet: "Marcene Stavros"
 
 }, {
     name: "Beagh Veterinary Practice",
@@ -541,7 +541,7 @@ var practices = [{
     },
     code: "lm",
     address: "Beagh, Dromahair, Co. Leitrim",
-    vet: "Barry Mossey",
+    vet: "Barry Mossey"
 
 }, {
     name: "Hillside Veterinary Surgery",
@@ -551,7 +551,7 @@ var practices = [{
     },
     code: "lk",
     address: "Dromtrasna, Abbeyfeale, Co. Limerick",
-    vet: "Anjelica Feddersen  ",
+    vet: "Anjelica Feddersen"
 
 }, {
     name: "Liston Veterinary",
@@ -561,7 +561,7 @@ var practices = [{
     },
     code: "lk",
     address: "Lisiniska, Newcastle West, Co. Limerick",
-    vet: "Tyrone Everhart",
+    vet: "Tyrone Everhart"
 
 }, {
     name: "Murphy & Leslie Veterinary Centre",
@@ -571,7 +571,7 @@ var practices = [{
     },
     code: "ld",
     address: "Coolarty, Granard, Co. Longford",
-    vet: "Jeannetta Beland",
+    vet: "Jeannetta Beland"
 
 }, {
     name: "Nally MVB MRCVS",
@@ -581,7 +581,7 @@ var practices = [{
     },
     code: "ld",
     address: "Terlicken, Ballymahon, Co. Longford",
-    vet: "Pedro Via",
+    vet: "Pedro Via"
 
 }, {
     name: "O'Dowd Veterinary Hospital",
@@ -591,7 +591,7 @@ var practices = [{
     },
     code: "lh",
     address: "Hale Street, Ardee, Co. Louth",
-    vet: "Taren Elson",
+    vet: "Taren Elson"
 
 }, {
     name: "Westgate Veterinary Hospital",
@@ -601,7 +601,7 @@ var practices = [{
     },
     code: "lh",
     address: "Scarlet Street, Droghede, Co. Louth",
-    vet: "Tillie Wolfram",
+    vet: "Tillie Wolfram"
 
 }, {
     name: "Crossmolina Veterinary Clinic",
@@ -611,7 +611,7 @@ var practices = [{
     },
     code: "mo",
     address: "Chapel Street, Crossmolina, Co. Mayo",
-    vet: "Lachelle Lickteig",
+    vet: "Lachelle Lickteig"
 
 }, {
     name: "DKD Veterinary Services Ltd",
@@ -621,7 +621,7 @@ var practices = [{
     },
     code: "mo",
     address: "Lower James Street, Claremorris, Co. Mayo",
-    vet: "Adena Bendickson",
+    vet: "Adena Bendickson"
 
 }, {
     name: "Moylagh Veterinary Clinic",
@@ -631,7 +631,7 @@ var practices = [{
     },
     code: "mh",
     address: "Moylagh, Oldcastle, Co. Meath",
-    vet: "Delicia Schoch",
+    vet: "Delicia Schoch"
 
 }, {
     name: "Navan Veterinary Clinic",
@@ -641,7 +641,7 @@ var practices = [{
     },
     code: "mh",
     address: "Commons Road, Clogherboy, Co. Meath",
-    vet: "Stan Clayson",
+    vet: "Stan Clayson"
 
 }, {
     name: "All Creatures Veterinary Group",
@@ -651,7 +651,7 @@ var practices = [{
     },
     code: "mn",
     address: "Tullyherim, Armagh Road, Co. Monaghan",
-    vet: "Lin Noblin",
+    vet: "Lin Noblin"
 
 }, {
     name: "Carrick Veterinary Centre",
@@ -661,7 +661,7 @@ var practices = [{
     },
     code: "mn",
     address: "Steadfast Industrial Estate, Carrickmacross, Co. Monaghan",
-    vet: "Danna Dicarlo",
+    vet: "Danna Dicarlo"
 
 }, {
     name: "Cloghan Veterinary Clinic",
@@ -671,7 +671,7 @@ var practices = [{
     },
     code: "oy",
     address: "Castle Street, Cloghan, Co. Offaly",
-    vet: "Irmgard Shuck",
+    vet: "Irmgard Shuck"
 
 }, {
     name: "Dovegrove Veterinary Clinic",
@@ -681,7 +681,7 @@ var practices = [{
     },
     code: "oy",
     address: "Dovegrove, Birr, Co. Offaly",
-    vet: "Ashli Mesa",
+    vet: "Ashli Mesa"
 
 }, {
     name: "Castlerea Veterinary Clinic",
@@ -691,7 +691,7 @@ var practices = [{
     },
     code: "rn",
     address: "Main Street, Castlerea, Co. Roscommon",
-    vet: "Cornelia Mcwain",
+    vet: "Cornelia Mcwain"
 
 }, {
     name: "Cloverhill Veterinary Surgery",
@@ -701,7 +701,7 @@ var practices = [{
     },
     code: "rn",
     address: "Lissagallon, Cloverhill, Co. Roscommon",
-    vet: "Kym Hollander",
+    vet: "Kym Hollander"
 
 }, {
     name: "Animal Health Care",
@@ -711,7 +711,7 @@ var practices = [{
     },
     code: "so",
     address: "Teeling Street, Ballymote, Co. Sligo",
-    vet: "Lesa Hester",
+    vet: "Lesa Hester"
 
 }, {
     name: "Ballygawley Veterinary Clinic",
@@ -721,7 +721,7 @@ var practices = [{
     },
     code: "so",
     address: "Ballygrania, Collooney, Co. Sligo",
-    vet: "Humberto Kilby",
+    vet: "Humberto Kilby"
 
 }, {
     name: "O'Connor & Julian Veterinary ",
@@ -731,7 +731,7 @@ var practices = [{
     },
     code: "tn",
     address: "Cahir Road, Cashel, Co. Tipperary",
-    vet: "Imogene Calles",
+    vet: "Imogene Calles"
 
 }, {
     name: "Borrisoleigh Veterinary Centre",
@@ -741,7 +741,7 @@ var practices = [{
     },
     code: "ts",
     address: "Capanilly, Borrisoleigh, Thurles, Co. Tipperary",
-    vet: "Hoyt Warner",
+    vet: "Hoyt Warner"
 
 }, {
     name: "Parklands Veterinary Group",
@@ -751,7 +751,7 @@ var practices = [{
     },
     code: "te",
     address: "5 Old Moy Road, Dungannon, Co. Tyrone",
-    vet: "Kraig Rostad",
+    vet: "Kraig Rostad"
 
 }, {
     name: "Parkview Vet Clinic",
@@ -761,7 +761,7 @@ var practices = [{
     },
     code: "te",
     address: "Orchard Road, Industrial Estate, Strabane, Co. Tyrone",
-    vet: "Rodger Seago",
+    vet: "Rodger Seago"
 
 }, {
     name: "Glenbower Veterinary",
@@ -771,7 +771,7 @@ var practices = [{
     },
     code: "wd",
     address: "Barrack Street, Tallow, Co. Waterford",
-    vet: "Flossie Sigler",
+    vet: "Flossie Sigler"
 
 }, {
     name: "Lismore Vets",
@@ -781,7 +781,7 @@ var practices = [{
     },
     code: "wd",
     address: "East Main Street, Lismore, Co. Waterford",
-    vet: "Cammy Eidson",
+    vet: "Cammy Eidson"
 
 }, {
     name: "Murrays Vet Practice",
@@ -791,7 +791,7 @@ var practices = [{
     },
     code: "wh",
     address: "Mount Temple Road, Knockdomney, Moate, Co. Westmeath",
-    vet: "Phylis Masse",
+    vet: "Phylis Masse"
 
 }, {
     name: "Glasson Veterinary Clinic",
@@ -801,7 +801,7 @@ var practices = [{
     },
     code: "wh",
     address: "Glasson, Athlone, Westmeath",
-    vet: "Lesley Fick",
+    vet: "Lesley Fick"
 
 }, {
     name: "Longstone Veterinary Clinic",
@@ -811,7 +811,7 @@ var practices = [{
     },
     code: "wx",
     address: "10 Irishtown, New Ross, Co. Wexford",
-    vet: "Catrina Montford",
+    vet: "Catrina Montford"
 
 }, {
     name: "Mill House Veterinary Practice",
@@ -821,7 +821,7 @@ var practices = [{
     },
     code: "wx",
     address: "The Mill, Ballycarnew Road, Gorey, Co. Wexford",
-    vet: "Daphne Glessner",
+    vet: "Daphne Glessner"
 
 }, {
     name: "Avondale Veterinary",
@@ -831,7 +831,7 @@ var practices = [{
     },
     code: "ww",
     address: "Corballis, Rathdrum, Co. Wicklow",
-    vet: "Harvey Wan",
+    vet: "Harvey Wan"
 
 }, {
     name: "Carnew Veterinary Clinic",
@@ -841,13 +841,14 @@ var practices = [{
     },
     code: "ww",
     address: "13 Main Street, Carnew, Co. Wicklow",
-    vet: "Sallie Topham",
+    vet: "Sallie Topham"
 
 }];
 
 //Show map
 
 function initialize() {
+    'use strict';
     var options = {
         center: {
             lat: 53.2734,
