@@ -847,9 +847,42 @@ var practices = [{
 
 //Show map
 
-//Create markers
+function initialize() {
+    var options = {
+        center: {
+            lat: 53.2734,
+            lng: -7.77832031
+        },
+        zoom: 6.5
+    };
 
-//Show inforwindow
+    map = new google.maps.Map(document.getElementById('map'), options);
+
+
+    //Create markers
+    let markers = [];
+
+    function renderMarkers(showInfoWindow) {
+        for (var i = 0; i < practices.length; i++) {
+            markers[i] = new google.maps.Marker({
+                position: practices[i].position,
+                title: practices[i].name,
+                map: map,
+                animation: google.maps.Animation.DROP,
+            });
+
+            //Show inforwindow
+
+            google.maps.event.addListener(markers[i], 'click', function() {
+                console.log(this)
+                let infoWindow = new google.maps.InfoWindow();
+                infoWindow.setContent(this.getTitle());
+                infoWindow.open(map, this);
+            });
+        }
+
+    }
+}
 
 //Zoom to selected county
 
