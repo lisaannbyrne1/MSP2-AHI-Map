@@ -4,7 +4,8 @@ Stream Two Project: Interactive Frontend Development
 The intension of this standalone page is to all farmers to find AHI approved trained veterinary practitioner in their area.  The main aim is to have a centralised area for farmers to find their vets depending on the area they are trained in. 
 
 ## Demo
-A live demo can be found here.
+A live demo can be found here
+assets/Demo.gif
 
 ## UX
 ### User stories
