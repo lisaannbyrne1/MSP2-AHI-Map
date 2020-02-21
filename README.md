@@ -5,7 +5,7 @@ The intension of this standalone page is to all farmers to find AHI approved tra
 
 ## Demo
 A live demo can be found here
-assets/Demo.gif
+![Demo](https://github.com/lisaannbyrne1/MSP2-AHI-Map/blob/master/assets/Demo.gif "=Demo")
 
 ## UX
 ### User stories
