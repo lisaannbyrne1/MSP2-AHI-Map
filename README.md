@@ -4,7 +4,8 @@ Stream Two Project: Interactive Frontend Development
 The intension of this standalone page is to all farmers to find AHI approved trained veterinary practitioner in their area.  The main aim is to have a centralised area for farmers to find their vets depending on the area they are trained in. 
 
 ## Demo
-A live demo can be found here
+A live demo can be found <a href="https://lisaannbyrne1.github.io/MSP2-AHI-Map/">here</a>
+
 ![Demo](https://github.com/lisaannbyrne1/MSP2-AHI-Map/blob/master/assets/Demo.gif "=Demo")
 
 ## UX
@@ -35,8 +36,10 @@ Features Left to Implement
 A feature I have left to implement is that if the user clicks on a result the associated map marker will bounce on the map to identify itself.  Another feature I would like to implement is an additional filter by the programme area the practice is trained in. 
 
 ### Testing
+The website was firstly tested against the criteria set out in the user stories, the criteria was met in each case. The zoom functionality brings the user into enough range for them to also look at the map markers close to there filtered County. The site has been tested in various browser including Chrome, Firefox, Edge and Safari. Findings from this testing showed that the website responded  well on each of these browsers. It has also been testing for compatibility and responsiveness on mobile devices. During this testing I found although flex stacks the div with the map was small when results were populated. On mobile it works best in landscape mode rather then portrait mode. 
 
 ### Deployment
+Hosted on GitHub pages and was deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 ## Credits
 
