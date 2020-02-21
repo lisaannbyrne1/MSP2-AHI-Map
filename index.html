@@ -22,12 +22,12 @@
             <!--Heading & descrption-->
             <h2>Animal Health Ireland</h2>
             <h3>Trained PVP Interactive Map</h3>
-            <p>Search for a trained PVP in your County using the filter below</p>
+            <p>Search for a trained PVP in your County using the filter below.</p>
             <br>
             <br>
             <!--Search County-->
             <select class="btn btn-secondary dropdown-toggle" id="county" name="county">
-                <option value="">Please choose</option>
+                <option value="">Please choose County</option>
                 <option value="am">Antrim</option>
                 <option value="ah">Armagh</option>
                 <option value="cw">Carlow</option>
@@ -69,7 +69,9 @@
 
 
         <!-- Map -->
-        <div id="map"></div>
+        <div id="map">
+
+        </div>
     </div>
 
     <!--Bootstrap-->
@@ -81,6 +83,7 @@
     </script>
 
     <!--Map script-->
+    <script src="assets/js/data.js"></script>
     <script src="assets/js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8o1X0re08og5ceQSYXRSlAl98KJmeN_I&callback=initialize" async defer></script>
 </body>
